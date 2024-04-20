@@ -1,15 +1,21 @@
+
 let display = document.getElementById('display')
 
-function show(input) {
+let show = (input) => {
     display.value += input;
 }
 
-let ClearAll = ()=>{
+// This is delete all once
+let ClearAll = () => {
     display.value = ''; 
 }
-let ClearOne = () =>{
+
+// This is delete one after the other
+let ClearOne = () => {
     display.value = display.value.slice(0,-1)
 }
-let calculate = ()=>{
+
+// This is equal to
+let calculate = () => {
     display.value = eval(display.value)
 }

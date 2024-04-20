@@ -16,7 +16,7 @@
 
 }
 .screen input{
-    background-color: white;
+    background-color: #fff;
     box-shadow: none;
     color: black;
     border: none;
@@ -30,18 +30,18 @@
 }
 input{
     background-color: black;
+    box-shadow: 0 0 0 3px  lightgray;
     color: #fff;
     border: none;
     margin: 8px 8px;
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px  lightgray;
     cursor: pointer;
 }
 #spec{
     background-color: orange;
-    color: white;
+    color: #fff;
 }
 .spec{
     border-radius: 0;
